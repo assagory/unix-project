@@ -5,5 +5,3 @@ date "+%m-%d-%Y %H:%M:%S" >> README.md
 
 echo "The number of lines of code contained in guessinggame.sh is:" >> README.md 
 wc -l guessinggame.sh | egrep -o "[0-9]+" >> README.md
-
-nano README.md
